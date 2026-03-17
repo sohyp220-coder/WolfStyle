@@ -1,0 +1,33 @@
+body {
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    background: #002A3E;
+
+
+}
+
+.wolf {
+    width: 300px;
+    height: 300px;
+}
+
+.w , .g , .l {
+    width: 250px;
+    height: 300px;
+}
+
+
+.header  {
+    list-style: none;
+    position: static;
+    top: 0;
+    
+}
+
+.header li  {
+    display: inline-block;
+    position: static;
+    top: 0;
+    
+}
