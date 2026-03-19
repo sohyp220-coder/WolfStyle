@@ -141,6 +141,8 @@ html {
   padding: 5px;
   margin: 5px;
   transition: 1s;
+  overflow-y: scroll;
+  max-height: 200px;
 }
 
 .btn-container {
@@ -149,7 +151,6 @@ html {
   padding: 5px;
   margin: 5px;
   transition: 1s;
-  overflow-y: scroll;
 }
 
 .close-btn {
