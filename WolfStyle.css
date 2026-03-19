@@ -1,33 +1,131 @@
-body {
-    font-family: sans-serif;
-    font-style: italic;
-    font-size: 20px;
-    background: #002A3E;
-
-
+.btn {
+    border-radius: 5px;
+    padding: 3px;
+    margin: auto;
+    border: .5px solid #000;
+    background: #007EE2;
+    transition: .5s;
+    color: #00731F;
+    display: inline;
+    text-decoration: none;
 }
 
-.wolf {
-    width: 300px;
-    height: 300px;
-}
-
-.w , .g , .l {
-    width: 250px;
-    height: 300px;
+.btn:hover {
+    box-shadow: 0px 0px .5px 2.5px #0099FB;
+    background: #0071F5;
+    color: #FBFBFB;
 }
 
 
-.header  {
-    list-style: none;
-    position: static;
-    top: 0;
+.btn-p {
+    color: #1550FF;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid;
+    background: #fff;
     
 }
 
-.header li  {
-    display: inline-block;
-    position: static;
-    top: 0;
-    
+.btn-s {
+    color: #777777;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid;
+    background: #FFFFFF;
+}
+
+.btn-s:hover {
+    box-shadow: 0 0 .5px 2px #888888;
+    background: #888;
+    color: #FBFBFB;
+}
+
+.btn-S {
+    color: forestgreen;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid;
+    background: #FFFFFF;
+}
+
+
+.btn-S:hover {
+    outline: #00D91C solid 1.5px;
+    background: #00731F;
+    color: #FBFBFB;
+}
+
+
+.btn-l {
+    color: #0075D9;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid;
+    background: #FFFFFF;
+    text-decoration: underline;
+}
+
+.inp  {
+    border-radius: 5px;
+    border: 1px solid;
+    transition: .5s;
+    outline: 0;
+}
+
+.inp:hover {
+    outline: #0093D9 solid 3px;
+    border: .5px solid;
+}
+
+.card-container {
+  width: 200px;
+  height: auto;
+  border: 1px solid #0081C2;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  display: inline-block;
+  vertical-align: top;
+}
+
+.card-img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.card-title {
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.card-paragraph {
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+.link {
+    padding: 5px;
+    width: auto;
+    border-radius: 5px;
+    border: 1px solid #1B98D3;
+    color: #1B98D3;
+}
+
+
+.collabse .container {
+  display: none;
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+  transition: 1s;
+}
+
+.collabse:hover .container {
+  display: block;
 }
