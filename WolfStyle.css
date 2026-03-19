@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .btn {
     border-radius: 5px;
     padding: 3px;
@@ -139,6 +143,15 @@
   transition: 1s;
 }
 
+.btn-container {
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+  transition: 1s;
+  overflow-y: scroll;
+}
+
 .close-btn {
   position: relative;
   margin: 5px;
@@ -167,7 +180,7 @@
     color: #fff;
 }
 
-.close-btn:focus ~ .container{
+.close-btn:focus ~ .btn-container{
     display: none;
 }
 
