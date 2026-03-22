@@ -96,9 +96,6 @@ html {
     display: none;
 }
 
-.show-info {
-    margin-top: 300px;
-}
 
 .show-info:focus ~ .info{
     display: block;
